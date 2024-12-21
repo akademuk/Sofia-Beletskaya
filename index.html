@@ -1,0 +1,954 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sofia Beletskaya</title>
+
+    <link rel="stylesheet" href="https://use.typekit.net/ytp3bxc.css">
+    <link rel="stylesheet" href="style/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/style.css">
+
+    <link rel="icon" href="image/favicon.png" type="image/png">
+
+</head>
+
+<body>
+    <header>
+        <div class="header-big">
+            <div class="wrapper">
+                <div class="header-big__left">
+                    <a href="/">
+                        <img width="149" height="38" src="image/newLogo.svg" alt="Sofia Beletskaya" loading="lazy">
+                    </a>
+                    <nav aria-label="Основная навигация">
+                        <ul>
+                            <li><a href="#curs" title="Про курс">Про курс</a></li>
+                            <li><a href="#program" title="Програма">Програма</a></li>
+                            <li><a href="#bonus" title="Бонуси">Бонуси</a></li>
+                            <li><a href="#about" title="Про автора">Про автора</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="header-big__right">
+                    <div class="header-big__right-box">
+                        <a href="https://t.me/yaroslav_shapoval" target="_blank" class="header-link">Задати питання
+                        </a>
+                        <button class="header-btn open-popup-btn">Взяти участь</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="header-small">
+            <div class="wrapper">
+                <div class="header-small__left">
+                    <a href="/">
+                        <img width="149" height="38" src="image/newLogo.svg" alt="Sofia Beletskaya">
+                    </a>
+                    <ul>
+                        <li><a href="#curs" title="Про курс">Про курс</a></li>
+                        <li><a href="#program" title="Програма">Програма</a></li>
+                        <li><a href="#bonus" title="Бонуси">Бонуси</a></li>
+                        <li><a href="#about" title="Про автора">Про автора</a></li>
+                    </ul>
+                </div>
+                <div class="header-small__right">
+                    <div class="header-small__right-box">
+                        <a href="https://t.me/yaroslav_shapoval" target="_blank" class="header-link">Задати питання
+                        </a>
+                        <button class="header-btn open-popup-btn">Взяти участь</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="navigation">
+        <ul>
+            <li><a href="#curs" title="Про курс">Про курс</a></li>
+            <li><a href="#program" title="Програма">Програма</a></li>
+            <li><a href="#bonus" title="Бонуси">Бонуси</a></li>
+            <li><a href="#about" title="Про автора">Про автора</a></li>
+            <li>
+                <a href="https://t.me/yaroslav_shapoval">
+                    <img width="24" height="24" src="image/telegram.svg" alt="telegram">
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <section class="hero">
+        <div class="wrapper">
+            <div class="hero__left">
+                <div class="hero__left-top">
+                    <div class="hero__left-row2">
+                        <h1>Робочий зошит планування</h1>
+                        <h2>Створи ефективний план дій та точки фокуса на майбутнє за кілька годин в комфортній
+                            атмосфері</h2>
+                    </div>
+                    <div class="hero__left-row3">
+                        <button class="open-popup-btn">Почніть зараз за<span>$9,49</span><b>$119,99</b></button>
+                        <div class="hero__left-timer">
+                            <span>Ціна зі знижкою діє ще:</span>
+                            <div class="section-cta-left-time-box" data-end-time="2024-10-30T00:00:00">
+                                <div class="section-cta-left-time">
+                                    <p class="days"></p>
+                                    <span>дн</span>
+                                </div>
+                                <div class="section-cta-left-time">
+                                    <p class="hours"></p>
+                                    <span>год</span>
+                                </div>
+                                <div class="section-cta-left-time">
+                                    <p class="minutes"></p>
+                                    <span>хв</span>
+                                </div>
+                                <div class="section-cta-left-time section-cta-left-time2">
+                                    <p class="seconds"></p>
+                                    <span>сек</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero__left-bottom">
+                    <img width="24" height="24" src="image/rest.svg" alt="rest" loading="lazy">
+                    <div class="hero__left-bottom2">
+                        <div class="hero__left-bottom2-top">
+                            Допоможу створювати вірусні відео та налаштовувати продажі на автопілоті -
+                            <span>всього за 30 хвилин на день</span>
+                        </div>
+                        <div class="hero__left-bottom2-bottom">
+                            <p>Ярослав Шаповал</p>
+                            <span>CEO Shapoval Agency</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero__right">
+                <picture>
+                    <source srcset="image/photo2.webp 576w,
+                                image/photo2.webp 768w,
+                                image/photo2.webp 1024w,
+                                image/photo2.webp 1280w" type="image/webp"
+                        sizes="(max-width: 576px) 100vw, (min-width: 577px) 50vw">
+                    <img src="image/hero.png" alt="Пример изображения" width="738" height="778"
+                        fetchpriority="high">
+                </picture>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-card">
+        <div class="wrapper">
+            <div class="section-card__item">
+                <div class="section-card__item-icon">
+                    <img width="48" height="48" src="image/card-icon1.svg" alt="icon" loading="lazy">
+                </div>
+                <h3>Відео інструкція</h3>
+                <p>
+                    Допоможе використати зошит планування на 100%. Дізнаєтесь, як ефективно заповнювати блоки,
+                    розставляти пріоритети та ставити цілі для досягнення реальних результатів.
+                </p>
+            </div>
+
+            <div class="section-card__item">
+                <div class="section-card__item-icon">
+                    <img width="48" height="48" src="image/card-icon2.svg" alt="icon" loading="lazy">
+                </div>
+                <h3>Медитація для аналізу року, що минає</h3>
+                <p>
+                    Це час для роздумів над досягнутим, висновками із ситуацій і вдячністю за кожен крок вперед. Під час
+                    цієї практики відпускаємо все зайве, що не служить нашому розвитку.
+                </p>
+            </div>
+
+            <div class="section-card__item">
+                <div class="section-card__item-icon">
+                    <img width="48" height="48" src="image/card-icon3.svg" alt="icon" loading="lazy">
+                </div>
+                <h3>Без навичок планування та прив'язки до часу</h3>
+                <p>
+                    Все просто та інтуїтивно зрозуміло, що дозволяє зосередитись на головному і рухатись вперед у своєму
+                    темпі. Ви зможете легко використовувати його для організації своїх думок, цілей і мрій, не
+                    відчуваючи тиску.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-course" id="curs">
+        <div class="wrapper">
+            <div class="section-course__left">
+                <h2>Пропоную цей онлайн курс, <span>якщо хочеш:</span></h2>
+                <div class="section-course__left-box">
+                    <p>Почати діяти</p>
+                    <span>Перестати відкладати важливі справи і почати діяти просто зараз</span>
+                    <div class="section-course__left-img">
+                        <div class="section-course__left-pos">
+                            <picture>
+                                <source srcset="image/section-img.webp" type="image/webp">
+                                <img width="479" height="632" src="image/section-img.png" alt="image" loading="lazy">
+                            </picture>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-course__right">
+                <div class="section-course__right-col">
+                    <div class="section-course__right-card section-course__right-card-new">
+                        <h3>Спланувати рік</h3>
+                        <p>у комфортній атмосфері</p>
+                    </div>
+
+                    <div class="section-course__right-card section-course__right-card1 section-course__right-card-new">
+                        <h3>Визначити цілі</h3>
+                        <p>та спрямувати зусилля на їх досягнення</p>
+                    </div>
+
+                    <div class="section-course__right-card section-course__right-card-new">
+                        <h3>Позбутися хаосу</h3>
+                        <p>в планах і отримати ясність у своїх діях</p>
+                    </div>
+                </div>
+                <div class="section-course__right-col">
+                    <div class="section-course__right-card section-course__right-card2 section-course__right-card-new2">
+                        <h3>Організуватися</h3>
+                        <p>Бути більш організованим без жорстких прив'язок</p>
+                    </div>
+                    <div class="section-course__right-card section-course__right-card3 section-course__right-card-new3">
+                        <h3>Наповнити рік</h3>
+                        <p>щоб він був енергійним і наповненим намірами</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-vertical">
+        <div class="wrapper">
+            <div class="section-vertical-left">
+                <h2>
+                    <span>Коли мова йде про продажі, я </span> показую свої результати
+                </h2>
+                <p>
+                    За 8 років підприємництва я здійснила свої мрії: переїхала в Іспанію, купила Tesla і живу в домі
+                    мрії. З понад 1600 годинами коучингу я допоможу вам досягти ваших цілей
+                </p>
+            </div>
+            <div class="section-vertical-right">
+                <picture>
+                    <source srcset="image/section-vertical.webp" type="image/webp">
+                    <img width="350" height="560" src="image/section-vertical.png" alt="image" loading="lazy">
+                </picture>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-cards">
+        <div class="wrapper">
+            <div class="section-cards-item">
+                <img src="image/section-cards1.svg" alt="icon">
+                <h3>1600+ годин коучингу</h3>
+                    <p>Мій досвід роботи з людьми допоміг розробити планувальник, який дійсно працює і допомагає
+                        досягати реальних результатів.</p>
+            </div>
+
+            <div class="section-cards-item">
+                <img src="image/section-cards2.svg" alt="icon">
+                <h3>8 років підприємницької діяльності</h3>
+                <p>Я створила цей планувальник для тих, хто хоче розвиватися, змінювати своє життя та досягати високих
+                    цілей.</p>
+            </div>
+
+            <div class="section-cards-item">
+                <img src="image/section-cards3.svg" alt="icon">
+                <h3>Переїхала в Іспанію та живу в домі своєї мрії</h3>
+                <p>Цей планувальник став моїм надійним інструментом на шляху до мрії — тепер він доступний для тебе, щоб
+                    ти також зміг реалізувати свої бажання</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-step">
+        <div class="wrapper">
+            <h2>Як отримати <span>«Робочий зошит планування»</span> ?</h2>
+            <div class="section-step__box">
+                <div class="section-step__box-icon section-step__box-icon1">
+                    <h3>Заповнюй просту заявку</h3>
+
+                    <button class="section-step__box-btn open-popup-btn">Заповнити зараз</button>
+                </div>
+
+                <div class="section-step__box-value section-step__box-value1" style="z-index: 6;">
+                    01
+                </div>
+
+                <div class="section-step__box-icon section-step__box-icon2">
+                    <h3>Безпечно здійсни оплату</h3>
+                    <picture>
+                        <source srcset="image/section-step__box-icon1.webp" type="image/webp">
+                        <img width="939" height="492" src="image/section-step__box-icon1.png" alt="image"
+                            loading="lazy">
+                    </picture>
+                </div>
+
+                <div class="section-step__box-value section-step__box-value2" style="z-index: 6;">
+                    02
+                </div>
+
+                <div class="section-step__box-icon section-step__box-icon4">
+                    <h3>Відразу отримуй курс на свій email</h3>
+
+                    <picture>
+                        <source srcset="image/section-step1.webp" type="image/webp">
+                        <img width="939" height="528" src="image/section-step1.png" alt="image" loading="lazy">
+                    </picture>
+                </div>
+
+                <div class="section-step__box-value section-step__box-value3" style="z-index: 6;">
+                    03
+                </div>
+
+                <div class="section-step__box-icon section-step__box-icon3">
+                    <h3>Отримуй персональний розбір бізнесу від автора курсу</h3>
+
+                    <picture>
+                        <source srcset="image/section-step2.webp" type="image/webp">
+                        <img width="987" height="768" src="image/section-step2.png" alt="image" loading="lazy">
+                    </picture>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-personal">
+        <div class="wrapper">
+            <div class="section-personal_left">
+                <h2>На сесії ми:</h2>
+                <div class="section-personal_left-box">
+                    <ul>
+                        <li>
+                            <h4>Поглянемо на кожну сферу життя і визначимо на чому потрібно зосередити увагу.</h4>
+                            <span>Не можна робити все одночасно! Потрібно визначити, які аспекти життя потребують
+                                негайної уваги. Виявимо сфери з найбільшим потенціалом для змін і росту і які потрібно
+                                розвивати в першу чергу.</span>
+                        </li>
+                        <li>
+                            <h4>Проаналізуємо, наскільки готові до нових рівня у житті</h4>
+                            <span>Якщо хочете змін, важливо бути готовим до цього. Розберемося, чи готові прийняти нові
+                                можливості, внутрішні бар'єри. Визначимо, що потрібно змінити у мисленні та підходах,
+                                щоб досягати нових вершин.</span>
+                        </li>
+                        <li>
+                            <h4>Оцінимо стан і рівень енергії</h4>
+                            <span>Ваша енергія — це основний ресурс для досягнення. Розглянемо, наскільк заряджені на
+                                результати, продіаностуємо наявність виснаження та емоційного вигоряння. Розробимо план
+                                дій для повернення ресурсу.</span>
+                        </li>
+                        <li>
+                            <h4>Складемо план з маленьких кроків</h4>
+                            <span>Замість складних і абстрактних порад, розробимо конкретні, прості кроки, які
+                                допоможуть швидко покращити ситуацію. Крок за кроком зможете побачити реальні зміни вже
+                                найближчим часом.</span>
+                        </li>
+                    </ul>
+
+                    <button class="section-personal-btn open-popup-btn">Придбати курс</button>
+                </div>
+            </div>
+            <div class="section-personal_right">
+                <div class="section-personal_right-box section-personal_right-box1">
+                    <picture>
+                        <source srcset="image/section-personal1.webp" type="image/webp">
+                        <img width="933" height="828" src="image/section-personal1.png" alt="image" loading="lazy">
+                    </picture>
+                </div>
+
+                <div class="section-personal_right-box section-personal_right-box2">
+                    <picture>
+                        <source srcset="image/section-personal2.webp" type="image/webp">
+                        <img width="933" height="828" src="image/section-personal2.png" alt="image" loading="lazy">
+                    </picture>
+                </div>
+
+                <div class="section-personal_right-box section-personal_right-box3">
+                    <div class="section-personal_right-box-fancy">
+                        <picture>
+                            <source srcset="image/section-personal3.webp" type="image/webp">
+                            <img width="224" height="224" src="image/section-personal3.png" alt="image" loading="lazy">
+                        </picture>
+                    </div>
+                    <button class="btn-play" data-fancybox data-src="#team3">
+                        <img width="49" height="48" src="image/play-btn.svg" alt="icons" loading="lazy">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-program" id="program">
+        <div class="wrapper">
+            <h2>Програма онлайн-курсу</h2>
+            <div class="section-program-box">
+                <div class="section-program-card">
+                    <div class="section-program-card-content">
+                        <span>Блок</span>
+                        <h3>Помилки та падіння 2024</h3>
+                        <ul>
+                            <li>
+                                Аналізуємо помилки та робимо висновки.
+                            </li>
+                            <li>
+                                Визначаємо, що заважало прогресу.
+                            </li>
+                            <li>
+                                Працюємо з накопленим негативом.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="section-program-card">
+                    <div class="section-program-card-content">
+                        <span>Блок</span>
+                        <h3>Подяки 2024</h3>
+                        <ul>
+                            <li>
+                                Визнаємо досягнення та успіхи.
+                            </li>
+                            <li>
+                                Дякуємо людям та події.
+                            </li>
+                            <li>
+                                Зміцнюємо позитивний настрій.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="section-program-card">
+                    <div class="section-program-card-content">
+                        <span>Блок</span>
+                        <h3>Прощання з 2024</h3>
+                        <ul>
+                            <li>
+                                Відпускаємо старі образи та невирішені питання.
+                            </li>
+                            <li>
+                                Закриваємо старі незавершені справи.
+                            </li>
+                            <li>
+                                Завершуємо рік із легким серцем.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="section-program-card">
+                    <div class="section-program-card-content">
+                        <span>Блок</span>
+                        <h3>Привіт 2025</h3>
+                        <ul>
+                            <li>
+                                Налаштовуємось на новий старт.
+                            </li>
+                            <li>
+                                Візуалізуємо цілі на рік.
+                            </li>
+                            <li>
+                                Визначає пріоритети 2025 року.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="section-program-card">
+                    <div class="section-program-card-content">
+                        <span>Блок</span>
+                        <h3>Фокус 2025</h3>
+                        <ul>
+                            <li>
+                                Встановлюємо чіткі цілі на рік.
+                            </li>
+                            <li>
+                                Зосереджуємося на головному.
+                            </li>
+                            <li>
+                                Позбавляємось зайвого.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="section-program-card">
+                    <div class="section-program-card-content">
+                        <span>Блок</span>
+                        <h3>Ризики 2025</h3>
+                        <ul>
+                            <li>
+                                Визначаємо можливі ризики.
+                            </li>
+                            <li>
+                                Розробляємо план роботи з ризиками.
+                            </li>
+                            <li>
+                                Знаходимо рішення потенційних ситуацій.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="section-program-card">
+                    <div class="section-program-card-content">
+                        <span>Блок</span>
+                        <h3>Збираємо 2024-2025 рік</h3>
+                        <ul>
+                            <li>
+                                Складаємо підсумковий перелік досягнень.
+                            </li>
+                            <li>
+                                Оцінюємо, що несемо у 2025 році.
+                            </li>
+                            <li>
+                                Готуємось до нових викликів.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="section-program-card">
+                    <div class="section-program-card-content">
+                        <span>Блок</span>
+                        <h3>Цінність</h3>
+                        <ul>
+                            <li>
+                                Розмірковуємо над своїми цінностями.
+                            </li>
+                            <li>
+                                Визначаємо, що важливе для нас.
+                            </li>
+                            <li>
+                                Ставимо пріоритети для правильних рішень.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <button class="show-more">Завантажити всі (8)</button>
+            </div>
+            <div class="section-program-bottom">
+                <button class="section-program-bottom-btn open-popup-btn">Придбайте зараз за <b> $9,49</b><span>
+                        $119,99</span></button>
+                <div class="section-program-timer">
+                    <span>Ціна зі знижкою діє ще:</span>
+                    <div class="section-cta-left-time-box" data-end-time="2024-10-30T00:00:00">
+                        <div class="section-cta-left-time">
+                            <p class="days"></p>
+                            <span>дн</span>
+                        </div>
+                        <div class="section-cta-left-time">
+                            <p class="hours"></p>
+                            <span>год</span>
+                        </div>
+                        <div class="section-cta-left-time">
+                            <p class="minutes"></p>
+                            <span>хв</span>
+                        </div>
+                        <div class="section-cta-left-time section-cta-left-time2">
+                            <p class="seconds"></p>
+                            <span>сек</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-cta">
+        <div class="wrapper">
+            <div class="section-cta-left">
+                <div class="section-cta-left-row section-cta-left-row-sec2">
+                    <h2>Встигніть придбати курс <span>«Постійний потік заявок з Reels»</span> зі знижкою!</h2>
+                    <div class="section-cta-left-timer">
+                        <span>Ціна зі знижкою діє ще:</span>
+                        <div class="section-cta-left-time-box" data-end-time="2024-10-30T00:00:00">
+                            <div class=" section-cta-left-time">
+                                <p class="days"></p>
+                                <span>дн</span>
+                            </div>
+                            <div class="section-cta-left-time">
+                                <p class="hours"></p>
+                                <span>год</span>
+                            </div>
+                            <div class="section-cta-left-time">
+                                <p class="minutes"></p>
+                                <span>хв</span>
+                            </div>
+                            <div class="section-cta-left-time section-cta-left-time2">
+                                <p class="seconds"></p>
+                                <span>сек</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section-cta-left-row section-cta-left-row-sec3">
+                    <div class="section-cta-left-img">
+                        <picture>
+                            <source srcset="image/art.webp" type="image/webp">
+                            <img width="275" height="443" src="image/art.png" alt="image" loading="lazy">
+                        </picture>
+                    </div>
+                    <div class="section-cta-left-price">
+                        <p>$9,49</p>
+                        <span>$119,99</span>
+                    </div>
+                </div>
+            </div>
+            <div class="section-cta-right">
+                <div class="section-cta-right-title">
+                    <p>Заповніть форму</p>
+                    <span>та перейдіть до сплати</span>
+                </div>
+                <form id="ajax-contact-form" class="utm-form" name="submit-to-google-sheet">
+                    <input type="text" name="Name" class="name" placeholder="Ваше ім'я" required>
+                    <input type="text" name="Telegram" class="email" placeholder="Ваш телеграм" required>
+                    <input type="tel" name="Tel" class="tel" placeholder="Телефон" required autocomplete="tel">
+                    <input type="hidden" name="utm_source" class="utm_source">
+                    <input type="hidden" name="utm_medium" class="utm_medium">
+                    <input type="hidden" name="utm_campaign" class="utm_campaign">
+                    <input type="hidden" name="utm_content" class="utm_content">
+                    <input type="hidden" class="referer" name="referer">
+
+                    <button class="submit" type="submit">Перейти до оплати</button>
+                </form>
+                <div class="section-cta-right-bottom">
+                    <div class="section-cta-right-bottom-text">
+                        Наступним вікном відкриється сервіс безпечних платежів <a href="wayforpay.com"
+                            target="_blank">wayforpay.com</a>
+                    </div>
+                    <div class="section-cta-right-bottom-logo">
+                        <div class="section-cta-right-bottom-logo-big">
+                            <img width="100" height="20" src="image/logo1.svg" alt="logo" loading="lazy">
+                        </div>
+                        <div class="section-cta-right-bottom-logo-small">
+                            <img width="42" height="28" src="image/logo2.svg" alt="logo" loading="lazy">
+                            <img width="42" height="28" src="image/logo3.svg" alt="logo" loading="lazy">
+                            <img width="42" height="28" src="image/logo4.svg" alt="logo" loading="lazy">
+                            <img width="41" height="28" src="image/logo5.svg" alt="logo" loading="lazy">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="note"></div>
+
+    <section class="section-about" id="about">
+        <div class="wrapper">
+            <div class="section-about-header">
+                <h2>Софія Білецька</span>
+                </h2>
+
+                <p>8 років підприємницької діяльності та 1600+ годин коучингу підприємців і власників бізнесу</p>
+            </div>
+            <div class="section-about-main">
+                <div class="section-about-slider">
+                    <picture>
+                        <source srcset="image/foto.webp" type="image/webp">
+                        <img width="576" height="476" src="image/foto.png" alt="image" loading="lazy">
+                    </picture>
+                </div>
+                <div class="section-about-content">
+                    <p>Софія Білецька, власниця консалтингової компанії Голдман Аудит. За 8 років підприємницької
+                        діяльності я допомогла понад 300 компаніям досягти стабільності й зростання завдяки професійному
+                        супроводу.</p>
+                    <p>Я сертифікований коуч ICF з понад 1600 годинами досвіду роботи з підприємцями, допомагаючи їм
+                        розвивати лідерські навички та ефективні стратегії.</p>
+                    <p>Планування допомагає уникати ризиків, ефективно використовувати ресурси та досягати цілей. Чіткі
+                        кроки прискорюють розвиток і підвищують стійкість до викликів.</p>
+                    <p>Я готова поділитися своїм досвідом і знаннями, щоб навчити планувати ефективно і впевнено
+                        рухатися до успіху.</p>
+                    <button class="section-about-content-btn open-popup-btn">Придбати курс</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-reviews">
+        <div class="wrapper">
+            <h2><span>Що кажуть</span> про курс проєкту</h2>
+
+            <div class="section-reviews-slider">
+                <div class="section-reviews-wrapper swiper-wrapper">
+                    <div class="section-reviews-slide swiper-slide">
+                        <div class="section-reviews-box">
+                            <div class="section-reviews-box-content">
+                                <div class="section-reviews-box-title">
+                                    <p>Ганна Іванова</p>
+                                    <span>BeautySpace Studio</span>
+                                    <div class="section-reviews-box-star">
+                                        <p>Курс придбано 21.08.2024</p>
+                                        <img width="68" height="13" src="image/star.svg" alt="image" loading="lazy">
+                                    </div>
+                                </div>
+                                <div class="section-reviews-box-text">
+                                    Тут нужно разместить текст отзыва Тут нужно разместить текст отзыва Тут нужно
+                                    разместить текст отзыва Тут нужно разместить текст отзыва Тут нужно разместить текст
+                                    отзыва Тут нужно разместить текст отзыва Тут нужно разместить текст отзыва Тут нужно
+                                    разместить текст отзыва Тут нужно разместить текст отзыва Тут нужно разместить текст
+                                    отзыва
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section-reviews-slide swiper-slide">
+                        <div class="section-reviews-box">
+                            <div class="section-reviews-box-content">
+                                <div class="section-reviews-box-title">
+                                    <p>Ганна Іванова</p>
+                                    <span>BeautySpace Studio</span>
+                                    <div class="section-reviews-box-star">
+                                        <p>Курс придбано 21.08.2024</p>
+                                        <img width="68" height="13" src="image/star.svg" alt="image" loading="lazy">
+                                    </div>
+                                </div>
+                                <div class="section-reviews-box-text">
+                                    Тут нужно разместить текст отзыва Тут нужно разместить текст отзыва Тут нужно
+                                    разместить текст отзыва Тут нужно разместить текст отзыва Тут нужно разместить текст
+                                    отзыва Тут нужно разместить текст отзыва Тут нужно разместить текст отзыва Тут нужно
+                                    разместить текст отзыва Тут нужно разместить текст отзыва Тут нужно разместить текст
+                                    отзыва
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section-reviews-slide swiper-slide">
+                        <div class="section-reviews-box">
+                            <div class="section-reviews-box-content">
+                                <div class="section-reviews-box-title">
+                                    <p>Ганна Іванова</p>
+                                    <span>BeautySpace Studio</span>
+                                    <div class="section-reviews-box-star">
+                                        <p>Курс придбано 21.08.2024</p>
+                                        <img width="68" height="13" src="image/star.svg" alt="image" loading="lazy">
+                                    </div>
+                                </div>
+                                <div class="section-reviews-box-text">
+                                    Тут нужно разместить текст отзыва Тут нужно разместить текст отзыва Тут нужно
+                                    разместить текст отзыва Тут нужно разместить текст отзыва Тут нужно разместить текст
+                                    отзыва Тут нужно разместить текст отзыва Тут нужно разместить текст отзыва Тут нужно
+                                    разместить текст отзыва Тут нужно разместить текст отзыва Тут нужно разместить текст
+                                    отзыва
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-reviews-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="wrapper">
+            <div class="footer-logo">
+                <a href="/">
+                    <img width="75" height="19" src="image/logo-footer.svg" alt="logo" loading="lazy">
+                </a>
+            </div>
+
+            <div class="footer-main">
+                <div class="footer-main-left footer-main-left2">
+                    <ul class="footer-main-left-list">
+                        <li>
+                            <a href="oferta.html">Договір-оферта</a>
+                        </li>
+                        <li>
+                            <a href="politika.html">Політика конфіденційності</a>
+                        </li>
+                    </ul>
+                    <address>
+                        <a href="#">www.sofyabeletskaya.com</a> — Коучинг і менторство для бізнесу.
+                        © 2025 Весь контент доступний за ліцензією Creative Commons Attribution 4.0 International
+                        license, якщо не зазначено інше.
+                    </address>
+                </div>
+                <div class="footer-main-right">
+                    <div class="footer-main-right-text">
+                        Платіжний сервіс надається платформою <a href="wayforpay.com" target="_blank">wayforpay.com</a>
+                    </div>
+                    <div class="footer-main-right-logo">
+                        <div class="footer-main-right-logo-big">
+                            <img width="100" height="20" src="image/logo-white.svg" alt="logo" loading="lazy">
+                        </div>
+                        <div class="footer-main-right-logo-small">
+                            <img width="42" height="28" src="image/logo2.svg" alt="logo" loading="lazy">
+                            <img width="42" height="28" src="image/logo3.svg" alt="logo" loading="lazy">
+                            <img width="42" height="28" src="image/logo4.svg" alt="logo" loading="lazy">
+                            <img width="41" height="28" src="image/logo5.svg" alt="logo" loading="lazy">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="popup" id="main-popup">
+        <div class="popup-content">
+            <span class="close-btn">
+                <img width="25" height="25" src="image/close.svg" alt="close" loading="lazy">
+            </span>
+            <div class="wrapper">
+                <div class="section-cta-left">
+                    <div class="section-cta-left-box">
+                        <h2>Встигніть придбати курс <span>«Постійний потік заявок з Reels»</span> зі знижкою!</h2>
+                        <div class="section-cta-left-boxing">
+                            <div class="section-cta-left-prices">
+                                <div class="section-cta-left-img">
+                                    <picture>
+                                        <source srcset="image/art.webp" type="image/webp">
+                                        <img width="275" height="443" src="image/art.png" alt="image" loading="lazy">
+                                    </picture>
+                                </div>
+                                <div class="section-cta-left-price">
+                                    <p>$9,49</p>
+                                    <span>$119,99</span>
+                                </div>
+                            </div>
+                            <div class="section-cta-left-timer">
+                                <span>Ціна зі знижкою діє ще:</span>
+                                <div class="section-cta-left-time-box" data-end-time="2024-10-30T00:00:00">
+                                    <div class=" section-cta-left-time">
+                                        <p class="days"></p>
+                                        <span>дн</span>
+                                    </div>
+                                    <div class="section-cta-left-time">
+                                        <p class="hours"></p>
+                                        <span>год</span>
+                                    </div>
+                                    <div class="section-cta-left-time">
+                                        <p class="minutes"></p>
+                                        <span>хв</span>
+                                    </div>
+                                    <div class="section-cta-left-time section-cta-left-time2">
+                                        <p class="seconds"></p>
+                                        <span>сек</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="section-cta-right">
+                    <form id="ajax-contact-form2" class="utm-form" name="submit-to-google-sheet-2">
+                        <input type="text" name="Name" class="name" placeholder="Ваше ім'я" required>
+                        <input type="text" name="Telegram" class="email" placeholder="Ваш телеграм" required>
+                        <input type="tel" name="Tel" class="tel" placeholder="Телефон" required autocomplete="tel">
+                        <input type="hidden" name="utm_source" class="utm_source">
+                        <input type="hidden" name="utm_medium" class="utm_medium">
+                        <input type="hidden" name="utm_campaign" class="utm_campaign">
+                        <input type="hidden" name="utm_content" class="utm_content">
+                        <input type="hidden" class="referer" name="referer">
+
+                        <button type="submit">Перейти до сплати</button>
+                    </form>
+                    <div class="section-cta-right-bottom">
+                        <div class="section-cta-right-bottom-text">
+                            Наступним вікном відкриється сервіс безпечних платежів <a href="wayforpay.com"
+                                target="_blank">wayforpay.com</a>
+                        </div>
+                        <div class="section-cta-right-bottom-logo">
+                            <div class="section-cta-right-bottom-logo-big">
+                                <img width="100" height="20" src="image/logo1.svg" alt="logo" loading="lazy">
+                            </div>
+                            <div class="section-cta-right-bottom-logo-small">
+                                <img width="42" height="28" src="image/logo2.svg" alt="logo" loading="lazy">
+                                <img width="42" height="28" src="image/logo3.svg" alt="logo" loading="lazy">
+                                <img width="42" height="28" src="image/logo4.svg" alt="logo" loading="lazy">
+                                <img width="41" height="28" src="image/logo5.svg" alt="logo" loading="lazy">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script/jquery-3.7.0.min.js" defer></script>
+    <script src="script/jquery.maskedinput.min.js" defer></script>
+    <script src="script/swiper-bundle.min.js" defer></script>
+    <script src="script/jquery.fancybox.min.js" defer></script>
+    <script src="script/main.js" defer></script>
+
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxuHCJi_zwviX7Fmtw0XLHvaA7C_R_8DC2t6cUNYMJne2sNRqV0s_cRpv06EKpVD5qcvQ/exec';
+        const form = document.forms['submit-to-google-sheet'];
+        const noteBlock = document.querySelector('.note');
+
+        if (form) {
+            form.addEventListener('submit', e => {
+                e.preventDefault();
+
+                // Создаем новый объект FormData
+                const formData = new FormData(form);
+
+                // Добавляем текущую дату в формате "YYYY-MM-DD"
+                const currentDate = new Date().toISOString().split('T')[0];
+                formData.append('Date', currentDate);
+
+                // Добавляем текущий URL страницы
+                const currentURL = window.location.href;
+                formData.append('Referer', currentURL); // Добавляем URL как "Referer"
+
+                fetch(scriptURL, { method: 'POST', body: formData })
+                    .then(response => {
+                        console.log('Success!', response);
+                        noteBlock.textContent = 'Your message has been sent successfully!';
+                    })
+                    .catch(error => console.error('Error!', error.message));
+            });
+        }
+
+        const secondForm = document.forms['submit-to-google-sheet-2'];
+        const noteBlock2 = document.querySelector('.note2');
+
+        if (secondForm) {
+            secondForm.addEventListener('submit', e => {
+                e.preventDefault();
+
+                // Создаем новый объект FormData для второй формы
+                const formData2 = new FormData(secondForm);
+
+                // Добавляем текущую дату в формате "YYYY-MM-DD"
+                const currentDate = new Date().toISOString().split('T')[0];
+                formData2.append('Date', currentDate);
+
+                // Добавляем текущий URL страницы
+                const currentURL = window.location.href;
+                formData2.append('Referer', currentURL); // Добавляем URL как "Referer"
+
+                fetch(scriptURL, { method: 'POST', body: formData2 })
+                    .then(response => {
+                        console.log('Success for second form!', response);
+                        noteBlock2.textContent = 'Your second message has been sent successfully!';
+                    })
+                    .catch(error => console.error('Error for second form!', error.message));
+            });
+        }
+    </script>
+
+</body>
+
+</html>
