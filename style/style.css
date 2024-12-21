@@ -1241,16 +1241,20 @@ header ul li a {
   flex-direction: column;
   align-items: center;
   gap: 8px;
-  background: url(../image/art2.png) #000;
+  background: url(../image/Pattern.png) #000;
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: bottom left;
+  background-position: center;
 }
 @media (min-width: 1279px) {
   .section-course {
     min-width: 1279px;
     max-width: 100%;
     padding: 96px 52px;
+    background: url(../image/art2.png) #000;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom left;
   }
 }
 .section-course .wrapper {
@@ -1314,6 +1318,7 @@ header ul li a {
   padding: 16px;
   align-items: center;
   flex-direction: column;
+  overflow: hidden;
   gap: 8px;
   width: 100%;
   height: 215px;
@@ -1329,6 +1334,7 @@ header ul li a {
     border-radius: 16px;
     height: 329px;
     min-height: 329px;
+    overflow: visible;
   }
 }
 .section-course__left-box p {
@@ -1397,11 +1403,12 @@ header ul li a {
   }
 }
 .section-course__left-pos {
-  width: 137.301px;
-  height: 206.003px;
+  width: 237.301px;
+  height: 306.003px;
   position: absolute;
-  bottom: -40px;
-  right: 16px;
+  bottom: -120px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .section-course__left-pos img {
   width: 100%;
@@ -1460,13 +1467,19 @@ header ul li a {
 .section-course__right-card-new {
   height: 147px;
 }
-.section-course__right-card-new2 {
-  min-height: 232.5px;
+@media (min-width: 1279px) {
+  .section-course__right-card-new2 {
+    min-height: 232.5px;
+  }
 }
 .section-course__right-card-new3 {
-  height: 232.5px;
-  min-height: 232.5px;
   padding-bottom: 24px !important;
+}
+@media (min-width: 1279px) {
+  .section-course__right-card-new3 {
+    height: 232.5px;
+    min-height: 232.5px;
+  }
 }
 .section-course__right-card h3 {
   color: var(--colors-basic-colors-grayscale-20);
@@ -1558,7 +1571,7 @@ header ul li a {
 .section-vertical .wrapper {
   display: flex;
   max-width: 800px;
-  padding: 0px 16px;
+  padding: 0px 16px 16px 16px;
   align-items: center;
   align-content: center;
   flex-wrap: wrap;
@@ -1572,7 +1585,7 @@ header ul li a {
 @media (min-width: 1279px) {
   .section-vertical .wrapper {
     max-width: 1176px;
-    padding: 0px 64px;
+    padding: 24px 64px;
     justify-content: space-between;
     height: 608px;
     background: #fff;
@@ -1646,12 +1659,15 @@ header ul li a {
   overflow: hidden;
   width: 100%;
   min-width: 256px;
+  border-radius: 20px;
+  overflow: hidden;
+  padding: 0;
 }
 .section-vertical-right img {
   width: 100%;
   height: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .section-vertical-right .section-vertical-swiper {
   padding-left: 16px;
@@ -1842,6 +1858,8 @@ header ul li a {
   position: relative;
 }
 .section-cards-item img {
+  width: 32px;
+  height: 32px;
   margin-bottom: 20px;
 }
 @media (min-width: 1279px) {
@@ -1878,6 +1896,9 @@ header ul li a {
   height: 8px;
   border-radius: 50%;
   background: #219499;
+  position: absolute;
+  top: 24px;
+  right: 16px;
 }
 @media (min-width: 1279px) {
   .section-cards-item h3::after {
@@ -2337,7 +2358,7 @@ input:focus {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 36px;
+  gap: 24px;
   flex: 1 0 0;
 }
 @media (min-width: 1279px) {
@@ -2350,6 +2371,8 @@ input:focus {
   font-size: 24px;
   font-weight: 500;
   line-height: 125%;
+  width: 100%;
+  text-align: left;
 }
 @media (min-width: 1279px) {
   .section-personal_left h2 {
@@ -2404,7 +2427,7 @@ input:focus {
   margin-bottom: 24px;
   display: flex;
   flex-direction: column;
-  gap: 3px;
+  gap: 8px;
   width: 100%;
 }
 @media (min-width: 1279px) {
@@ -2418,12 +2441,12 @@ input:focus {
   display: flex;
   flex-direction: column;
   position: relative;
-  gap: 4px;
+  gap: 8px;
   color: var(--colors-basic-colors-grayscale-100);
   font-family: "Inter";
   font-size: 14px;
   letter-spacing: 0.14px;
-  width: 90%;
+  width: 100%;
   padding-left: 32px;
   box-sizing: border-box;
 }
@@ -2456,16 +2479,27 @@ input:focus {
 .section-personal_left-box ul li h4 {
   color: #000;
   font-family: "Inter";
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 700;
   line-height: 150%;
+}
+@media (min-width: 1279px) {
+  .section-personal_left-box ul li h4 {
+    font-size: 16px;
+  }
 }
 .section-personal_left-box ul li span {
   color: #000;
   font-family: "Inter";
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 300;
   line-height: 150%;
+  margin-bottom: 0;
+}
+@media (min-width: 1279px) {
+  .section-personal_left-box ul li span {
+    font-size: 16px;
+  }
 }
 .section-personal_left-box1 {
   display: flex;
@@ -2612,6 +2646,8 @@ input:focus {
 }
 .section-personal_right-box2 {
   align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0;
 }
 @media (min-width: 1279px) {
   .section-personal_right-box2 {
@@ -2631,6 +2667,16 @@ input:focus {
     height: 270px;
     margin: 0 auto;
     display: block;
+  }
+}
+.section-personal_right-box2 img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  position: static;
+}
+@media (min-width: 1279px) {
+  .section-personal_right-box2 img {
+    margin-bottom: -10px;
   }
 }
 .section-personal_right-box3 {
@@ -2656,6 +2702,9 @@ input:focus {
     min-width: 100%;
     max-width: 100%;
   }
+}
+.section-personal_right-box3 img {
+  position: static;
 }
 .section-personal_right-box3 .btn-play {
   width: 48px;
@@ -2777,6 +2826,7 @@ input:focus {
   flex-direction: column;
   align-items: flex-start;
   gap: 8px;
+  flex: 1;
   border-radius: 16px;
   background: #fff;
 }
@@ -4080,9 +4130,14 @@ input:focus {
   }
 }
 .section-about-slider {
-  height: 300px;
+  height: 500px;
   overflow: hidden;
   position: relative;
+}
+@media (min-width: 1279px) {
+  .section-about-slider {
+    height: 300px;
+  }
 }
 .section-about-slider img {
   width: 100%;
@@ -4831,13 +4886,13 @@ input:focus {
   margin-bottom: 24px;
 }
 .footer-logo a img {
-  width: 74px;
-  height: 19px;
+  width: 176px;
+  height: 13px;
 }
 @media (min-width: 1279px) {
   .footer-logo a img {
-    width: 148px;
-    height: 38px;
+    width: 176px;
+    height: 13px;
   }
 }
 @media (min-width: 1279px) {
