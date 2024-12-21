@@ -5633,6 +5633,7 @@ input:focus {
 
     span {
       color: #ff5f33;
+      display: block;
       font-size: 38px;
       font-weight: 500;
       line-height: 125%;
@@ -5669,13 +5670,13 @@ input:focus {
     }
     a {
       border-radius: 99px;
-      border: 2px solid #5b5aff;
+      border: 2px solid #006B70;
       display: flex;
       height: 56px;
       padding: 16px 24px;
       justify-content: center;
       align-items: center;
-      color: #5b5aff;
+      color: #006B70;
       font-family: "Inter";
       font-size: 16px;
 
@@ -5693,7 +5694,7 @@ input:focus {
       }
 
       &:hover {
-        background: #5b5aff;
+        background: #006B70;
         color: #fff;
         transition: all 0.4s;
       }
@@ -5701,7 +5702,7 @@ input:focus {
       &:active {
         border-radius: 99px;
         border: 2px solid #f3f3f3;
-        background: #5b5aff;
+        background: #006B70;
         transition: all 0.4s;
       }
     }
