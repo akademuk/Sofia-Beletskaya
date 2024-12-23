@@ -173,6 +173,18 @@ body {
   align-items: center;
   gap: 48px;
 }
+@media (min-width: 1279px) {
+  .header-big__left .header-logo {
+    width: 160px;
+    height: 50px;
+  }
+  .header-big__left .header-logo img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+}
 .header-big__left ul {
   display: flex;
   align-items: center;
@@ -257,6 +269,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 8px;
+  padding: 16px 24px;
   border-radius: 99px;
   border: 2px solid #006B70;
   color: #006B70;
@@ -567,7 +580,7 @@ header ul li a {
   margin: 0 auto;
   position: relative;
   height: 100%;
-  align-items: center;
+  align-items: flex-end;
 }
 @media (max-width: 1279px) {
   .hero .wrapper {
@@ -584,7 +597,7 @@ header ul li a {
   align-items: flex-start;
   flex: 1 0 0;
   gap: 76px;
-  padding-bottom: 70px;
+  padding-bottom: 100px;
   position: relative;
   z-index: 2;
 }
@@ -707,7 +720,7 @@ header ul li a {
   line-height: 110%;
   position: relative;
   z-index: 2;
-  width: 720px;
+  width: 840px;
 }
 .hero__left-row2 h1 span {
   background: linear-gradient(-161deg, #ff831a 0%, #9c9cfe 55%);
@@ -825,8 +838,8 @@ header ul li a {
   height: 978px;
   position: relative;
   z-index: 2;
-  right: -50px;
-  bottom: 95px;
+  right: 0;
+  bottom: 50px;
   margin-top: auto;
 }
 @media (max-width: 1640px) {
@@ -837,8 +850,6 @@ header ul li a {
 .hero__right img {
   width: 100%;
   height: 100%;
-  -o-object-fit: contain;
-  object-fit: contain;
   position: relative;
   z-index: 3;
 }
@@ -1113,7 +1124,7 @@ header ul li a {
     display: flex;
     width: 376px;
     height: 376px;
-    padding: 48px 32px 0 32px;
+    padding: 48px 29px 0 32px;
     border-radius: 24px;
   }
 }
@@ -1142,7 +1153,7 @@ header ul li a {
   .section-card__item-icon {
     width: 48px;
     height: 48px;
-    margin-bottom: 14px;
+    margin-bottom: 28px;
   }
 }
 .section-card__item-icon img {
@@ -1160,7 +1171,7 @@ header ul li a {
 @media (min-width: 1279px) {
   .section-card__item h3 {
     font-size: 24px;
-    margin-bottom: 3px;
+    margin-bottom: 11px;
   }
 }
 .section-card__item p {
@@ -1328,7 +1339,7 @@ header ul li a {
 }
 @media (min-width: 1279px) {
   .section-course__left-box {
-    padding: 32px;
+    padding: 60px 32px 32px 32px;
     flex: 1 0 0;
     gap: 0;
     border-radius: 16px;
@@ -1420,7 +1431,7 @@ header ul li a {
   .section-course__left-pos {
     width: 420.364px;
     height: 530.628px;
-    bottom: -185px;
+    bottom: -206px;
     right: 38px;
   }
 }
@@ -1585,7 +1596,7 @@ header ul li a {
 @media (min-width: 1279px) {
   .section-vertical .wrapper {
     max-width: 1176px;
-    padding: 24px 64px;
+    padding: 33px 24px 15px 64px;
     justify-content: space-between;
     height: 608px;
     background: #fff;
@@ -1607,7 +1618,7 @@ header ul li a {
 @media (min-width: 1279px) {
   .section-vertical-left {
     display: flex;
-    max-width: 530px;
+    max-width: 560px;
     align-items: center;
     flex: 1 0 0;
     gap: 114px;
@@ -1723,9 +1734,9 @@ header ul li a {
 }
 @media (min-width: 1279px) {
   .section-vertical-right {
-    width: 376px;
+    width: 100%;
     height: 100%;
-    max-width: 376px;
+    max-width: 351px;
   }
 }
 .section-vertical-box {
@@ -1824,7 +1835,7 @@ header ul li a {
   .section-cards {
     min-width: 1279px;
     max-width: 100%;
-    padding: 12px 52px 96px 52px;
+    padding: 21px 52px 96px 52px;
   }
 }
 .section-cards .wrapper {
@@ -1861,6 +1872,13 @@ header ul li a {
   width: 32px;
   height: 32px;
   margin-bottom: 20px;
+}
+@media (min-width: 1279px) {
+  .section-cards-item img {
+    width: 43px;
+    height: 43px;
+    margin-bottom: 27px;
+  }
 }
 @media (min-width: 1279px) {
   .section-cards-item {
@@ -2038,7 +2056,7 @@ header ul li a {
     max-width: 1176px;
     flex-direction: column;
     align-items: flex-start;
-    gap: 84px;
+    gap: 129px;
   }
 }
 .section-step h2 {
@@ -2173,7 +2191,8 @@ header ul li a {
 }
 @media (min-width: 1279px) {
   .section-step__box-icon4 img {
-    left: 10%;
+    left: 0;
+    bottom: 0;
   }
 }
 .section-step__box-btn {
@@ -2427,14 +2446,15 @@ input:focus {
   margin-bottom: 24px;
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 16px;
   width: 100%;
 }
 @media (min-width: 1279px) {
   .section-personal_left-box ul {
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 13px;
+    margin-bottom: 47px;
   }
 }
 .section-personal_left-box ul li {
@@ -2631,6 +2651,7 @@ input:focus {
     gap: 8px;
     align-items: center;
     justify-content: center;
+    max-width: 276px;
   }
 }
 @media (min-width: 1279px) {
@@ -2678,12 +2699,17 @@ input:focus {
   .section-personal_right-box2 img {
     margin-bottom: -10px;
   }
+  .section-personal_right-box2 img img {
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
 }
 .section-personal_right-box3 {
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 26px;
+  box-sizing: border-box !important;
   position: relative;
 }
 .section-personal_right-box3 video {
@@ -2834,7 +2860,7 @@ input:focus {
   .section-program-card {
     display: flex;
     min-width: 476px;
-    padding: 24px 100px 24px 24px;
+    padding: 30px 100px 24px 24px;
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
@@ -2959,7 +2985,7 @@ input:focus {
 @media (min-width: 1279px) {
   .section-program-card-content span {
     font-size: 24px;
-    margin-bottom: 8px;
+    margin-bottom: 13px;
     display: block;
   }
 }
